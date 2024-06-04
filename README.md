@@ -18,6 +18,7 @@ Este repositorio esta orientado a apoyar a los estudiantes de IPC2 de lo desarol
 ### Unidades del Laboratorio
 - [`🐍 Unidad 1:`](./Unidad1) Introducción a Python
   - [📚 Clase 1](./Unidad1/Clase01)
+  - [📚 Clase 2](./Unidad1/Clase02)
 
 ## 👤Contacto
 
