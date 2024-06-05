@@ -1,6 +1,6 @@
 # 😼 Unidad 2: Manejo de Versiones
 
-## Clase 3: Manejo de Versiones, Git, Github y Gitkraken
+## 📚 Clase 3: Manejo de Versiones, Git, Github y Gitkraken
 
 _Fecha: 05-06-2024_
 
@@ -31,3 +31,6 @@ En esta clase se abordaron los temas de manejo de versiones, Git, GitHub y GitKr
 ### 💻 Ejemplo de la Clase
 
 Lo puedes encontrar en:  [Clase3IPC2VJ](https://github.com/rodrialeh01/Clase3IPC2VJ)
+
+### 🎥 Grabación de la Clase
+**Clase 3**: [https://drive.google.com/file/d/1G4RUT82MiZwrDGpkJn-qQw7rO45MVgDo/view?usp=sharing]( https://drive.google.com/file/d/1G4RUT82MiZwrDGpkJn-qQw7rO45MVgDo/view?usp=sharing)
