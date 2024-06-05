@@ -46,3 +46,6 @@ En esta clase se abordaron los temas de la programación orientada a objetos, la
 ### 💻 Código de la Clase
 
 Lo puedes encontrar en:  [Clase02/main.py](./Clase02/main.py)
+
+### 🎥 Grabación de la Clase
+**Clase 2**: [https://drive.google.com/file/d/1sVAPewwD4JvU_pL1v7aaI-wXKKVetZsl/view?usp=sharing]( https://drive.google.com/file/d/1sVAPewwD4JvU_pL1v7aaI-wXKKVetZsl/view?usp=sharing)
