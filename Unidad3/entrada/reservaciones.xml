@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reservaciones>
+    <reservacion id="1">
+        <descripcion>Le encanta el libro</descripcion>
+        <libro>1</libro>
+        <usuario>IPC2-01</usuario>
+        <dia hora="14">2</dia>
+    </reservacion>
+    <reservacion id="2">
+        <descripcion>Para su tarea de Comunicación y Lenguaje</descripcion>
+        <libro>1</libro>
+        <usuario>IPC2-02</usuario>
+        <dia hora="7">1</dia>
+    </reservacion>
+    <reservacion id="3">
+        <descripcion>Para su tarea de Literatura</descripcion>
+        <libro>1</libro>
+        <usuario>IPC2-03</usuario>
+        <dia hora="15">3</dia>
+    </reservacion>
+    <reservacion id="4">
+        <descripcion>Leyendo nuevos libros</descripcion>
+        <libro>1</libro>
+        <usuario>IPC2-04</usuario>
+        <dia hora="1">1</dia>
+    </reservacion>
+</reservaciones>
