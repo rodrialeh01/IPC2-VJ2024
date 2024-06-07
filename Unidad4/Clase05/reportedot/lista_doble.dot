@@ -1,0 +1,20 @@
+digraph G {
+  rankdir=LR;
+  node [shape = record, height = .1]
+node0 [label = "{<f1>| ID: LIB01\nTtulo: El Quijote\nAutor: Miguel de Cervantes\nPrecio: 20\nImagen: ../images/libro1.jpg|<f2>}"];
+node1 [label = "{<f1>| ID: LIB02\nTtulo: La Celestina\nAutor: Fernando de Rojas\nPrecio: 15\nImagen: ../images/libro2.jpg|<f2>}"];
+node2 [label = "{<f1>| ID: LIB03\nTtulo: La Regenta\nAutor: Leopoldo Alas Clarn\nPrecio: 25\nImagen: ../images/libro3.jpg|<f2>}"];
+node3 [label = "{<f1>| ID: LIB04\nTtulo: La Colmena\nAutor: Camilo Jos Cela\nPrecio: 30\nImagen: ../images/libro4.jpg|<f2>}"];
+node4 [label = "{<f1>| ID: LIB05\nTtulo: El Lazarillo de Tormes\nAutor: Annimo\nPrecio: 10\nImagen: ../images/libro5.jpg|<f2>}"];
+node5 [label = "{<f1>| ID: LIB06\nTtulo: Don Juan Tenorio\nAutor: Jos Zorrilla\nPrecio: 20\nImagen: ../images/libro6.jpg|<f2>}"];
+node0:f2 -> node1:f1;
+node1:f1 -> node0:f2;
+node1:f2 -> node2:f1;
+node2:f1 -> node1:f2;
+node2:f2 -> node3:f1;
+node3:f1 -> node2:f2;
+node3:f2 -> node4:f1;
+node4:f1 -> node3:f2;
+node4:f2 -> node5:f1;
+node5:f1 -> node4:f2;
+}

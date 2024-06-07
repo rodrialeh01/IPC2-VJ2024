@@ -1,0 +1,14 @@
+digraph G {
+  rankdir=LR;
+  node [shape = record, height = .1]node0 [label = "{ID: IPC2-01\nPassword: 12345\nNombre: Usuario1\nEdad: 23\nEmail: u1@gmail.com\nTelefono: 12345678|<f1>}"];
+node1 [label = "{ID: IPC2-02\nPassword: 12345\nNombre: Usuario2\nEdad: 25\nEmail: u2@gmail.com\nTelefono: 87654321|<f1>}"];
+node2 [label = "{ID: IPC2-03\nPassword: 12345\nNombre: Usuario3\nEdad: 25\nEmail: u3@gmail.com\nTelefono: 56815687|<f1>}"];
+node3 [label = "{ID: IPC2-04\nPassword: 12345\nNombre: Usuario4\nEdad: 25\nEmail: u4@gmail.com\nTelefono: 12357487|<f1>}"];
+node4 [label = "{ID: IPC2-05\nPassword: 12345\nNombre: Usuario5\nEdad: 25\nEmail: u5@gmail.com\nTelefono: 68789844|<f1>}"];
+node5 [label = "{ID: IPC2-06\nPassword: 12345\nNombre: Usuario6\nEdad: 25\nEmail: u6@gmail.com\nTelefono: 56486877|<f1>}"];
+node0-> node1;
+node1-> node2;
+node2-> node3;
+node3-> node4;
+node4-> node5;
+}

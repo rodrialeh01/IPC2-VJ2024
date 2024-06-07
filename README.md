@@ -23,6 +23,8 @@ Este repositorio esta orientado a apoyar a los estudiantes de IPC2 de lo desarol
   - [📚 Clase 3](./Unidad2)
 - [`📋 Unidad 3:`](./Unidad3) Procesamiento de datos XML
   - [📚 Clase 4](./Unidad3)
+- [`⛓️ Unidad 4:`](./Unidad4) Estructuras de Datos
+  - [📚 Clase 5](./Unidad4/Clase05/)
 
 ## 👤Contacto
 
