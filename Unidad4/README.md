@@ -36,4 +36,6 @@ Para cargar el pizarrron en [Excalidraw](https://excalidraw.com/), sigue los sig
 
 4. Listo, ya puedes ver el pizarrón de la clase y manipularlo a tu manera.
 
+### 🎥 Grabación de la Clase
+
 **Clase 5**: [https://drive.google.com/file/d/1oof6qIcLhIjIT7p3BFZXg0oZWJWz5C5Q/view?usp=sharing](https://drive.google.com/file/d/1oof6qIcLhIjIT7p3BFZXg0oZWJWz5C5Q/view?usp=sharing)
