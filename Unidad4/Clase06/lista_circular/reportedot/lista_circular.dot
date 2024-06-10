@@ -1,0 +1,14 @@
+digraph G {
+  rankdir=LR;
+  node [shape = record, height = .1]
+node0 [label = "{1|<f1>}"];
+node1 [label = "{2|<f1>}"];
+node2 [label = "{3|<f1>}"];
+node3 [label = "{4|<f1>}"];
+node4 [label = "{5|<f1>}"];
+node0 -> node1;
+node1 -> node2;
+node2 -> node3;
+node3 -> node4;
+node4 -> node0 [constraint=false];
+}

@@ -1,0 +1,12 @@
+digraph G {
+  rankdir=LR;
+  node [shape = record, height = .1]
+node0 [label = "{<f1>|ID: 0\nNombre: cancion1\nPista: artista1\nArtista: pista1.mp3|<f2>}"];
+node1 [label = "{<f1>|ID: 1\nNombre: cancion2\nPista: artista2\nArtista: pista2.mp3|<f2>}"];
+node2 [label = "{<f1>|ID: 2\nNombre: cancion3\nPista: aritsta3\nArtista: pista3|<f2>}"];
+node3 [label = "{<f1>|ID: 3\nNombre: Deja que hable el dembow\nPista: tempo, wisin & yandel\nArtista: Freetempo.mp3|<f2>}"];
+node0:f2  -> node1:f1[dir=both];
+node1:f2  -> node2:f1[dir=both];
+node2:f2  -> node3:f1[dir=both];
+node0:f1 -> node3:f2 [dir=both constraint=false];
+}

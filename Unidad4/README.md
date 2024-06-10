@@ -39,3 +39,23 @@ Para cargar el pizarrron en [Excalidraw](https://excalidraw.com/), sigue los sig
 ### 🎥 Grabación de la Clase
 
 **Clase 5**: [https://drive.google.com/file/d/1oof6qIcLhIjIT7p3BFZXg0oZWJWz5C5Q/view?usp=sharing](https://drive.google.com/file/d/1oof6qIcLhIjIT7p3BFZXg0oZWJWz5C5Q/view?usp=sharing)
+
+## 📚 Clase 6: Continuación a Estructuras de Datos, Lista Circular Simplemente Enlazada y Lista Circular Doblemente Enlazada
+
+_Fecha: 10-06-2024_
+
+En esta clase se abordaron los temas de listas circulares simplemente enlazadas y doblemente enlazadas.
+
+### 📖 Contenido:
+
+- Estructuras de datos dinámicas lineales circulares
+    - Lista circular simplemente enlazada
+    - Lista circular doblemente enlazada
+
+### 💻 Ejemplo de la Clase
+
+Lo puedes encontrar en:  [Clase06/main.py](./Clase06/main.py)
+
+### 🎥 Grabación de la Clase
+
+**Clase 6**: [https://drive.google.com/file/d/1IQRQsbdRZ3rGbRAtgZtvIOqk4krOAP_U/view?usp=sharing](https://drive.google.com/file/d/1IQRQsbdRZ3rGbRAtgZtvIOqk4krOAP_U/view?usp=sharing)
