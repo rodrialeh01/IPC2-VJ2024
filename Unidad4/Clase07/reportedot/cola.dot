@@ -1,0 +1,18 @@
+digraph G {
+    rankdir="RL";
+    label="Cola";
+    node[shape=box];
+Nodo0[style="filled", label="2", fillcolor="green"];
+Nodo1[style="filled", label="3", fillcolor="green"];
+Nodo2[style="filled", label="4", fillcolor="green"];
+Nodo3[style="filled", label="5", fillcolor="green"];
+Nodo4[style="filled", label="6", fillcolor="green"];
+Nodo5[style="filled", label="7", fillcolor="green"];
+
+Nodo1 -> Nodo0;
+Nodo2 -> Nodo1;
+Nodo3 -> Nodo2;
+Nodo4 -> Nodo3;
+Nodo5 -> Nodo4;
+
+}
