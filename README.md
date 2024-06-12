@@ -25,6 +25,8 @@ Este repositorio esta orientado a apoyar a los estudiantes de IPC2 de lo desarol
   - [📚 Clase 4](./Unidad3)
 - [`⛓️ Unidad 4:`](./Unidad4) Estructuras de Datos
   - [📚 Clase 5](./Unidad4/Clase05/)
+  - [📚 Clase 6](./Unidad4/Clase06/)
+  - [📚 Clase 7](./Unidad4/Clase07/)
 
 ## 👤Contacto
 
