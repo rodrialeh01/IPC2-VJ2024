@@ -1,0 +1,60 @@
+digraph G {
+    graph [pad="0.5", nodesep="1", ranksep="1"];
+    label="Matriz Dispersa"
+    node [shape=box, height=0.8];
+	Fila1[style="filled" label = "1" fillcolor="white" group = 0];
+	Fila7[style="filled" label = "7" fillcolor="white" group = 0];
+	Fila14[style="filled" label = "14" fillcolor="white" group = 0];
+	Fila15[style="filled" label = "15" fillcolor="white" group = 0];
+
+    edge[dir="both"];
+    	Fila1 -> Fila7;
+	Fila7 -> Fila14;
+	Fila14 -> Fila15;
+
+    edge[dir="both"]
+    Columna1 -> NodoF1_C1[dir=""];
+NodoF1_C1 -> NodoF7_C1;
+Columna2 -> NodoF14_C2[dir=""];
+Columna3 -> NodoF15_C3[dir=""];
+	Columna1[style="filled" label = "1" fillcolor="white" group = 1];
+	Columna2[style="filled" label = "2" fillcolor="white" group = 2];
+	Columna3[style="filled" label = "3" fillcolor="white" group = 3];
+Columna1 -> Columna2;
+Columna2 -> Columna3;
+
+	{rank = same; Columna1; Columna2; Columna3; }
+	NodoF1_C1[style="filled" label = "ID: 4
+Descripción: Leyendo nuevos libros
+Libro: La Colmena
+Usuario: Usuario4
+Día: 1
+Hora: 1:00" group = 1];
+	Fila1 -> NodoF1_C1[dir=""];
+	NodoF7_C1[style="filled" label = "ID: 2
+Descripción: Para su tarea de Comunicación y Lenguaje
+Libro: La Celestina
+Usuario: Usuario2
+Día: 1
+Hora: 7:00" group = 1];
+	Fila7 -> NodoF7_C1[dir=""];
+	NodoF14_C2[style="filled" label = "ID: 1
+Descripción: Le encanta el libro
+Libro: El Quijote
+Usuario: Usuario1
+Día: 2
+Hora: 14:00" group = 2];
+	Fila14 -> NodoF14_C2[dir=""];
+	NodoF15_C3[style="filled" label = "ID: 3
+Descripción: Para su tarea de Literatura
+Libro: La Regenta
+Usuario: Usuario3
+Día: 3
+Hora: 15:00" group = 3];
+	Fila15 -> NodoF15_C3[dir=""];
+	{ rank = same; Fila1; NodoF1_C1; }
+	{ rank = same; Fila7; NodoF7_C1; }
+	{ rank = same; Fila14; NodoF14_C2; }
+	{ rank = same; Fila15; NodoF15_C3; }
+
+}

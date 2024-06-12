@@ -1,0 +1,16 @@
+digraph G {
+  rankdir=LR;
+  node [shape = record, height = .1]
+node0 [label = "{ID: LIB01\nTítulo: El Quijote\nAutor: Miguel de Cervantes\nPrecio: 20\nImagen: ../images/libro1.jpg|<f1>}"];
+node1 [label = "{ID: LIB02\nTítulo: La Celestina\nAutor: Fernando de Rojas\nPrecio: 15\nImagen: ../images/libro2.jpg|<f1>}"];
+node2 [label = "{ID: LIB03\nTítulo: La Regenta\nAutor: Leopoldo Alas Clarín\nPrecio: 25\nImagen: ../images/libro3.jpg|<f1>}"];
+node3 [label = "{ID: LIB04\nTítulo: La Colmena\nAutor: Camilo José Cela\nPrecio: 30\nImagen: ../images/libro4.jpg|<f1>}"];
+node4 [label = "{ID: LIB05\nTítulo: El Lazarillo de Tormes\nAutor: Anónimo\nPrecio: 10\nImagen: ../images/libro5.jpg|<f1>}"];
+node5 [label = "{ID: LIB06\nTítulo: Don Juan Tenorio\nAutor: José Zorrilla\nPrecio: 20\nImagen: ../images/libro6.jpg|<f1>}"];
+node0 -> node1;
+node1 -> node2;
+node2 -> node3;
+node3 -> node4;
+node4 -> node5;
+node5 -> node0 [constraint=false];
+}

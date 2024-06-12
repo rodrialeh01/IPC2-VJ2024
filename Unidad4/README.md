@@ -40,6 +40,8 @@ Para cargar el pizarrron en [Excalidraw](https://excalidraw.com/), sigue los sig
 
 **Clase 5**: [https://drive.google.com/file/d/1oof6qIcLhIjIT7p3BFZXg0oZWJWz5C5Q/view?usp=sharing](https://drive.google.com/file/d/1oof6qIcLhIjIT7p3BFZXg0oZWJWz5C5Q/view?usp=sharing)
 
+---
+
 ## 📚 Clase 6: Continuación a Estructuras de Datos: Lista Circular Simplemente Enlazada y Lista Circular Doblemente Enlazada
 
 _Fecha: 10-06-2024_
@@ -59,6 +61,8 @@ Lo puedes encontrar en:  [Clase06/main.py](./Clase06/main.py)
 ### 🎥 Grabación de la Clase
 
 **Clase 6**: [https://drive.google.com/file/d/1IQRQsbdRZ3rGbRAtgZtvIOqk4krOAP_U/view?usp=sharing](https://drive.google.com/file/d/1IQRQsbdRZ3rGbRAtgZtvIOqk4krOAP_U/view?usp=sharing)
+
+---
 
 ## 📚 Clase 7: Continuación a Estructuras de Datos: Pilas y Colas
 
@@ -87,3 +91,29 @@ Lo puedes encontrar en:  [Clase07/main.py](./Clase07/main.py)
 ### 🎥 Grabación de la Clase
 
 **Clase 7**: [https://drive.google.com/file/d/11EJL1IvMIslTSM27n3BV4qtV2_tUA7sl/view?usp=sharing](https://drive.google.com/file/d/11EJL1IvMIslTSM27n3BV4qtV2_tUA7sl/view?usp=sharing)
+
+---
+
+## 📚 Clase 8: Continuación a Estructuras de Datos: Matrices Dinámicas
+
+_Fecha: 12-06-2024_
+
+En esta clase se abordaron los temas de matriz dispersa, matriz ortogonal y listas ortogonales.
+
+### 📖 Contenido:
+
+- Matrices dinámicas
+    - Matriz dispersa
+    - Matriz ortogonal
+    - Listas ortogonales
+    - Listas Cabeceras
+    - Nodo Cabecera
+    - Nodo Celda
+
+### 💻 Ejemplo de la Clase
+
+Lo puedes encontrar en:  [Clase08/main.py](./Clase08/main.py)
+
+### 🎥 Grabación de la Clase
+
+**Clase 8**: [https://drive.google.com/file/d/17WBVpI9VvQ4q5tdmnQAAsw8jot4-y8Mi/view?usp=sharing](https://drive.google.com/file/d/17WBVpI9VvQ4q5tdmnQAAsw8jot4-y8Mi/view?usp=sharing)

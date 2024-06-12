@@ -1,0 +1,46 @@
+digraph G {
+    graph [pad="0.5", nodesep="1", ranksep="1"];
+    label="Matriz Dispersa"
+    node [shape=box, height=0.8];
+	Fila1[style="filled" label = "1" fillcolor="white" group = 0];
+	Fila3[style="filled" label = "3" fillcolor="white" group = 0];
+	Fila4[style="filled" label = "4" fillcolor="white" group = 0];
+	Fila5[style="filled" label = "5" fillcolor="white" group = 0];
+
+    edge[dir="both"];
+    	Fila1 -> Fila3;
+	Fila3 -> Fila4;
+	Fila4 -> Fila5;
+
+    edge[dir="both"]
+    Columna1 -> NodoF1_C1[dir=""];
+NodoF1_C1 -> NodoF3_C1;
+NodoF3_C1 -> NodoF4_C1;
+Columna2 -> NodoF3_C2[dir=""];
+Columna6 -> NodoF1_C6[dir=""];
+NodoF1_C6 -> NodoF5_C6;
+	Columna1[style="filled" label = "1" fillcolor="white" group = 1];
+	Columna2[style="filled" label = "2" fillcolor="white" group = 2];
+	Columna6[style="filled" label = "6" fillcolor="white" group = 6];
+Columna1 -> Columna2;
+Columna2 -> Columna6;
+
+	{rank = same; Columna1; Columna2; Columna6; }
+	NodoF1_C1[style="filled" label = "*" group = 1];
+	Fila1 -> NodoF1_C1[dir=""];
+	NodoF1_C1 -> NodoF1_C6;
+	NodoF1_C6[style="filled" label = "*" group = 6];
+	NodoF3_C1[style="filled" label = "*" group = 1];
+	Fila3 -> NodoF3_C1[dir=""];
+	NodoF3_C1 -> NodoF3_C2;
+	NodoF3_C2[style="filled" label = "*" group = 2];
+	NodoF4_C1[style="filled" label = "*" group = 1];
+	Fila4 -> NodoF4_C1[dir=""];
+	NodoF5_C6[style="filled" label = "*" group = 6];
+	Fila5 -> NodoF5_C6[dir=""];
+	{ rank = same; Fila1; NodoF1_C1; NodoF1_C6; }
+	{ rank = same; Fila3; NodoF3_C1; NodoF3_C2; }
+	{ rank = same; Fila4; NodoF4_C1; }
+	{ rank = same; Fila5; NodoF5_C6; }
+
+}
