@@ -117,3 +117,40 @@ Lo puedes encontrar en:  [Clase08/main.py](./Clase08/main.py)
 ### 🎥 Grabación de la Clase
 
 **Clase 8**: [https://drive.google.com/file/d/17WBVpI9VvQ4q5tdmnQAAsw8jot4-y8Mi/view?usp=sharing](https://drive.google.com/file/d/17WBVpI9VvQ4q5tdmnQAAsw8jot4-y8Mi/view?usp=sharing)
+
+---
+
+## 📚 Clase 9: Ficheros y Estructuras de Datos Nativas de Python
+
+_Fecha: 13-06-2024_
+
+En esta clase se abordaron los temas de ficheros, diccionarios y tuplas.
+
+### 📖 Contenido:
+
+- Ficheros
+    - Crear
+    - Leer
+    - Escribir
+        - Actualizar contenido
+        - Añadir contenido
+- Estructuras de datos nativas de Python
+    - Diccionarios
+        - Crear
+        - Leer
+        - Actualizar
+        - Eliminar
+    - Tuplas
+        - Crear
+        - Leer
+        - Actualizar
+        - Eliminar
+
+
+### 💻 Ejemplo de la Clase
+
+Lo puedes encontrar en:  [Clase09](./Clase09)
+
+### 🎥 Grabación de la Clase
+
+**Clase 9**: []()
