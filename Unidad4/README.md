@@ -153,4 +153,4 @@ Lo puedes encontrar en:  [Clase09](./Clase09)
 
 ### 🎥 Grabación de la Clase
 
-**Clase 9**: []()
+**Clase 9**: [https://drive.google.com/file/d/1ivSrGGgB9ErktRYEAznc5bvS8RYTw2TN/view?usp=sharing](https://drive.google.com/file/d/1ivSrGGgB9ErktRYEAznc5bvS8RYTw2TN/view?usp=sharing)
