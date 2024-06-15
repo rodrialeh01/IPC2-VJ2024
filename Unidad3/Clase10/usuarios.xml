@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<usuarios>
+	<usuario id="1" password="1234">
+		<username>usuario1</username>
+		<nombre>Usuario Uno</nombre>
+		<cumpleanios dia="1" anio="2024">Enero</cumpleanios>
+	</usuario>
+</usuarios>

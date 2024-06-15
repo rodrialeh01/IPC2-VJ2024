@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<carrito_compras>
+	<item id="IT-0" password="1234">
+		<nombre>Computador&#193;</nombre>
+		<cantidad>40</cantidad>
+	</item>
+	<item id="IT-1" password="1234">
+		<nombre>Computador&#193;</nombre>
+		<cantidad>41</cantidad>
+	</item>
+</carrito_compras>

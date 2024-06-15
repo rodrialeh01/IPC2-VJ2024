@@ -22,13 +22,15 @@ Este repositorio esta orientado a apoyar a los estudiantes de IPC2 de lo desarol
 - [`😼 Unidad 2:`](./Unidad2) Manejo de Versiones
   - [📚 Clase 3](./Unidad2)
 - [`📋 Unidad 3:`](./Unidad3) Procesamiento de datos XML
-  - [📚 Clase 4](./Unidad3)
+  - [📚 Clase 4](./Unidad3/Clase04/)
+  - [📚 Clase 10](./Unidad3/Clase10/)
 - [`⛓️ Unidad 4:`](./Unidad4) Estructuras de Datos
   - [📚 Clase 5](./Unidad4/Clase05/)
   - [📚 Clase 6](./Unidad4/Clase06/)
   - [📚 Clase 7](./Unidad4/Clase07/)
   - [📚 Clase 8](./Unidad4/Clase08/)
   - [📚 Clase 9](./Unidad4/Clase09/)
+  - [📚 Clase 10](./Unidad4/Clase10/)
 
 ## 👤Contacto
 

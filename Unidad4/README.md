@@ -154,3 +154,37 @@ Lo puedes encontrar en:  [Clase09](./Clase09)
 ### 🎥 Grabación de la Clase
 
 **Clase 9**: [https://drive.google.com/file/d/1ivSrGGgB9ErktRYEAznc5bvS8RYTw2TN/view?usp=sharing](https://drive.google.com/file/d/1ivSrGGgB9ErktRYEAznc5bvS8RYTw2TN/view?usp=sharing)
+
+---
+
+## 📚 Clase 10: Expresiones Regulares
+
+_Fecha: 14-06-2024_
+
+En esta clase se abordaron los temas de expresiones regulares.
+
+### 📖 Contenido:
+
+- Expresiones regulares
+    - Metacareacteres
+        - Delimitadores
+        - Clases Predefinidas
+        - Iteradores
+        - Alternativas
+    - Literales
+    - Rangos
+- Modulo `re`
+    - `search`
+    - `match`
+    - `findall`
+    - `sub`
+    - `split`
+
+
+### 💻 Ejemplo de la Clase
+
+Lo puedes encontrar en:  [Clase10/main.py](./Clase10/main.py)
+
+### 🎥 Grabación de la Clase
+
+**Clase 10**: [https://drive.google.com/file/d/1mLVTskfHWcoMb7QlxtePCISa1fDHXJKs/view?usp=sharing](https://drive.google.com/file/d/1mLVTskfHWcoMb7QlxtePCISa1fDHXJKs/view?usp=sharing)
