@@ -40,20 +40,20 @@ En esta clase se abordó el tema de CSS3.
 
 ### 📖 Contenido:
 
-- HTML5
-- Estructura de un documento HTML5
-- Etiquetas básicas
-- Componentes de un documento HTML5
-    - Elementos
-    - Atributos
-    - Parrafos
-    - Estilos
-    - Tablas
-    - Imagenes
+- CSS3
+- Estructura de un documento CSS3
+- Módulos CSS
+- Conección de un documento HTML5 con un documento CSS3
+- Sintaxis de CSS3
+- Selectores
+- Valores
+- Propiedades de CSS3
+    - Color
+    - Texto
+    - Fuentes
     - Listas
-    - Elementos de formulario
-    - Tipos del elemento "input"
-    - Atributos del elemento "input"
+- Variables en CSS3
+
 
 ### 💻 Ejemplo de la Clase
 
