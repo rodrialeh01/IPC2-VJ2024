@@ -34,6 +34,8 @@ Este repositorio esta orientado a apoyar a los estudiantes de IPC2 de lo desarol
 - [`🌎 Unidad 5:`](./Unidad5) HTML5 y CSS3
   - [📚 Clase 11](./Unidad5)
   - [📚 Clase 12](./Unidad5)
+- [`🌎 Unidad 6:`](./Unidad6) Entorno para desarrollo Web en Python
+  - [📚 Clase 13](./Unidad6/Clase13/)
 
 ## 👤Contacto
 
