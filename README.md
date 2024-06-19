@@ -32,8 +32,8 @@ Este repositorio esta orientado a apoyar a los estudiantes de IPC2 de lo desarol
   - [📚 Clase 9](./Unidad4/Clase09/)
   - [📚 Clase 10](./Unidad4/Clase10/)
 - [`🌎 Unidad 5:`](./Unidad5) HTML5 y CSS3
-  - [📚 Clase 11](./Unidad5/Clase11/)
-  - [📚 Clase 12](./Unidad5/Clase12/)
+  - [📚 Clase 11](./Unidad5)
+  - [📚 Clase 12](./Unidad5)
 
 ## 👤Contacto
 
