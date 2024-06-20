@@ -36,6 +36,8 @@ Este repositorio esta orientado a apoyar a los estudiantes de IPC2 de lo desarol
   - [📚 Clase 12](./Unidad5)
 - [`🌎 Unidad 6:`](./Unidad6) Entorno para desarrollo Web en Python
   - [📚 Clase 13](./Unidad6/Clase13/)
+- [`📜 Unidad 7:`](./Unidad7) JavaScript Object Notarion (JSON)
+  - [📚 Clase 14](./Unidad7/Clase14/)
 
 ## 👤Contacto
 

@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<libros>
+	<libro id="LIB01">
+		<titulo>El Quijote</titulo>
+		<autor>Miguel de Cervantes</autor>
+		<precio>20</precio>
+		<imagen>../images/libro1.jpg</imagen>
+	</libro>
+	<libro id="LIB02">
+		<titulo>La Celestina</titulo>
+		<autor>Fernando de Rojas</autor>
+		<precio>15</precio>
+		<imagen>../images/libro2.jpg</imagen>
+	</libro>
+	<libro id="LIB03">
+		<titulo>La Regenta</titulo>
+		<autor>Leopoldo Alas Clarín</autor>
+		<precio>25</precio>
+		<imagen>../images/libro3.jpg</imagen>
+	</libro>
+	<libro id="LIB04">
+		<titulo>La Colmena</titulo>
+		<autor>Camilo José Cela</autor>
+		<precio>30</precio>
+		<imagen>../images/libro4.jpg</imagen>
+	</libro>
+	<libro id="LIB05">
+		<titulo>El Lazarillo de Tormes</titulo>
+		<autor>Anónimo</autor>
+		<precio>10</precio>
+		<imagen>../images/libro5.jpg</imagen>
+	</libro>
+	<libro id="LIB06">
+		<titulo>Don Juan Tenorio</titulo>
+		<autor>José Zorrilla</autor>
+		<precio>20</precio>
+		<imagen>../images/libro6.jpg</imagen>
+	</libro>
+	<libro id="LIB07">
+		<titulo>Libro7</titulo>
+		<autor>Autor7</autor>
+		<precio>20</precio>
+		<imagen>../images/libro7.jpg</imagen>
+	</libro>
+	<libro id="LIB08">
+		<titulo>Libro8</titulo>
+		<autor>Autor8</autor>
+		<precio>15</precio>
+		<imagen>../images/libro8.jpg</imagen>
+	</libro>
+</libros>
