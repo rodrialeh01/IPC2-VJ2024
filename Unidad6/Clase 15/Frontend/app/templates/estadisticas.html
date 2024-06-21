@@ -1,0 +1,73 @@
+{% extends "sidebaradmin.html" %}
+{% load static %}
+{% block content %}
+<div class="text-center my-6">
+    <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white">Estadísticas</h2>
+</div>
+<div class="w-full">
+    <div class="text-center my-6">
+        <h3 class="text-2xl font-semibold text-gray-900 dark:text-white">Edades Usuarios</h3>
+    </div>
+    <div class="bg-white border border-gray-200 rounded-lg shadow-md">
+        <div class="chart-bar">
+            <canvas id="grafica" height="60"></canvas>
+        </div>
+    </div>
+</div>
+<script>
+    function obtenerDatos(){
+        fetch('http://localhost:5000/usuarios/verUsuarios', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json',
+                'Access-Control-Allow-Origin': '*',
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            let matriz_datos = []
+            let nombres = []
+            let edades = []
+            data.usuarios.forEach(element => {
+                nombres.push(element.nombre)
+                edades.push(Number(element.edad))
+            });
+            matriz_datos.push(nombres)
+            matriz_datos.push(edades)
+            graficar(matriz_datos)
+        })
+    }
+    function graficar(data){
+        var ctx = document.getElementById('grafica');
+        var ctx2 = ctx.getContext('2d');
+        var barChart = new Chart(ctx2,{
+            type: 'bar',
+            data: {
+                labels: data[0],
+                datasets: [{
+                    label: 'edades',
+                    data: data[1],
+                    backgroundColor:[
+                        'rgb(147, 46, 212)',
+                        'rgb(12, 134, 229)',
+                        'rgb(32, 195, 94)',
+                        'rgb(245,131,9)',
+                        'rgb(245,9,113)'
+                    ]
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        })
+    }
+    obtenerDatos()
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+{% endblock %}

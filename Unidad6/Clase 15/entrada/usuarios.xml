@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+    <usuario id="IPC2-01" password="12345">
+        <nombre>Usuario1</nombre>
+        <edad>23</edad>
+        <email>u1@gmail.com</email>
+        <telefono>12345678</telefono>
+    </usuario>
+    <usuario id="IPC2-02" password="12345">
+        <nombre>Usuario2</nombre>
+        <edad>25</edad>
+        <email>u2@gmail.com</email>
+        <telefono>87654321</telefono>
+    </usuario>
+    <usuario id="IPC2-03" password="12345">
+        <nombre>Usuario3</nombre>
+        <edad>25</edad>
+        <email>u3@gmail.com</email>
+        <telefono>56815687</telefono>
+    </usuario>
+    <usuario id="IPC2-04" password="12345">
+        <nombre>Usuario4</nombre>
+        <edad>25</edad>
+        <email>u4@gmail.com</email>
+        <telefono>12357487</telefono>
+    </usuario>
+    <usuario id="IPC2-05" password="12345">
+        <nombre>Usuario5</nombre>
+        <edad>25</edad>
+        <email>u5@gmail.com</email>
+        <telefono>68789844</telefono>
+    </usuario>
+    <usuario id="IPC2-06" password="12345">
+        <nombre>Usuario6</nombre>
+        <edad>25</edad>
+        <email>u6@gmail.com</email>
+        <telefono>56486877</telefono>
+    </usuario>
+</usuarios>

@@ -2,6 +2,9 @@
 
 >Creado por: Rodrigo Hernández para el laboratorio de Introducción a la Programación y Computación 2.
 
+<div align="center"><img src="https://nextsoftware.io/files/images/logos/main/django-logo.png" width="300"/></div>
+
+
 Acaso tu eres estudiante, ya viste mucho de python, te interesa el desarrollo web y quieres empezar a trabajar con Django, este manual es para ti. Aquí te dejo los pasos para que puedas empezar a trabajar con Django.
 
 ## Instalación de Librerias
@@ -203,3 +206,5 @@ Y si ves la siguiente pantalla, tu aplicación se ha creado correctamente:
 ![Pantalla de Hola Mundo](./imgs/img2.png)
 
 Y listo, ya tienes tu aplicación en Django.
+
+Para más información puedes revisar la documentación oficial de Django en [Django](https://docs.djangoproject.com/en/5.0/).
