@@ -1,0 +1,53 @@
+{% extends "sidebaruser.html" %}
+{% load static %}
+{% block content %}
+<div class="text-center my-6">
+    <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white">Alquilar</h2>
+</div>
+<form class="max-w-sm mx-auto" 
+        enctype="multipart/form-data"
+        method="POST"
+        action="/search/">
+    {% csrf_token %}
+    <div class="mb-5">
+        <label for="idlibro" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Ingresa el ID del libro:</label>
+        <div class="flex">
+            <input type="text" id="idlibro" name="idlibro" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="LIB01" required />
+            <button type="submit" class="ml-2 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Buscar</button>
+        </div>
+    </div>
+</form>
+{% if producto_encontrado %}
+<div class="flex flex-col items-center p-6">
+    <!-- Imagen -->
+    <div class="flex items-center p-6">
+        <!-- Contenido -->
+        <!-- Imagen -->
+        <img src="{{producto_encontrado.imagen}}" alt="Descripción de la imagen" class="w-72 h-72 object-contain ml-6 m-5">
+        <div class="text-left">
+            <h1 class="text-2xl font-bold text-white">{{producto_encontrado.titulo}}</h1>
+            <h2 class="text-lg text-gray-700 dark:text-gray-300">{{producto_encontrado.id}}</h2>
+            <h3 class="mt-4 text-gray-700 dark:text-gray-300 mb-20">{{producto_encontrado.autor}}</h3>
+            <!-- Botones -->
+            <label for="cantidad" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Cantidad:</label>
+            <form class="flex items-center mt-4"
+                enctype="multipart/form-data"
+                method="POST"
+                action="/addCart/">
+                {% csrf_token %}
+                <input type="number" id="cantidad" name="cantidad" class="border border-black w-16 h-8 text-center">
+                <button type="submit" class="ml-2 text-white bg-green-500 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Agregar al Carrito</button>
+            </form>
+        </div>
+    </div>
+</div>
+{% endif %}
+<!-- Nuevo div con botón centrado -->
+<form class="flex justify-center my-6"
+    enctype="multipart/form-data"
+    method="POST"
+    action="/alquilo/">
+    {% csrf_token %}
+    <button class="text-white bg-yellow-700 hover:bg-yellow-800 focus:ring-4 focus:outline-none focus:ring-yellow-300 font-medium rounded-lg text-sm w-auto px-5 py-2.5 text-center dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800">Confirmar Alquiler</button>
+</form>
+{% endblock %}

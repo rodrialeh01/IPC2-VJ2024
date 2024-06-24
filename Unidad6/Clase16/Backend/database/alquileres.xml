@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<alquileres>
+	<alquiler numero="1">
+		<usuario id="IPC2-01">Usuario1</usuario>
+		<libros>
+			<libro id="LIB01">
+				<titulo>El Quijote</titulo>
+				<cantidad>2</cantidad>
+			</libro>
+		</libros>
+	</alquiler>
+	<alquiler numero="2">
+		<usuario id="IPC2-02">Usuario2</usuario>
+		<libros>
+			<libro id="LIB01">
+				<titulo>El Quijote</titulo>
+				<cantidad>4</cantidad>
+			</libro>
+			<libro id="LIB05">
+				<titulo>El Lazarillo de Tormes</titulo>
+				<cantidad>2</cantidad>
+			</libro>
+		</libros>
+	</alquiler>
+	<alquiler numero="3">
+		<usuario id="IPC2-01">Usuario1</usuario>
+		<libros>
+			<libro id="LIB05">
+				<titulo>El Lazarillo de Tormes</titulo>
+				<cantidad>2</cantidad>
+			</libro>
+		</libros>
+	</alquiler>
+	<alquiler numero="4">
+		<usuario id="IPC2-04">Usuario4</usuario>
+		<libros>
+			<libro id="LIB05">
+				<titulo>El Lazarillo de Tormes</titulo>
+				<cantidad>2</cantidad>
+			</libro>
+			<libro id="LIB03">
+				<titulo>La Regenta</titulo>
+				<cantidad>5</cantidad>
+			</libro>
+			<libro id="LIB02">
+				<titulo>La Celestina</titulo>
+				<cantidad>1</cantidad>
+			</libro>
+		</libros>
+	</alquiler>
+	<alquiler numero="5">
+		<usuario id="IPC2-01">Usuario1</usuario>
+		<libros>
+			<libro id="LIB03">
+				<titulo>La Regenta</titulo>
+				<cantidad>3</cantidad>
+			</libro>
+		</libros>
+	</alquiler>
+	<alquiler numero="6">
+		<usuario id="IPC2-01">Usuario1</usuario>
+		<libros>
+			<libro id="LIB05">
+				<titulo>El Lazarillo de Tormes</titulo>
+				<cantidad>3</cantidad>
+			</libro>
+			<libro id="LIB02">
+				<titulo>La Celestina</titulo>
+				<cantidad>7</cantidad>
+			</libro>
+		</libros>
+	</alquiler>
+</alquileres>

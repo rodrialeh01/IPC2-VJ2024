@@ -63,3 +63,27 @@ Lo puedes encontrar en:  [Clase15](./Clase15)
 
 ### 📑 Manual de Guía para iniciar con Django
 [Manual de Inicio Django](./Manual%20de%20Inicio%20Django.md)
+
+## 📚 Clase 16: Django, Jinja, Requests y Diagramas de Caso de Uso
+
+_Fecha: 24-06-2024_
+
+En esta clase se abordó el tema de Django, uso de Requests, jinja y diagramas de caso de uso.
+
+### 📖 Contenido:
+
+- Frontend
+- Django
+- Jinja
+- Request
+- Diagramas de Caso de Uso
+
+### 💻 Ejemplo de la Clase
+
+Lo puedes encontrar en:  [Clase16](./Clase16)
+
+### 🎥 Grabación de la Clase
+**Clase 16**: []()
+
+### 📑 Ejemplo Diagrama de Caso de Uso
+[Diagrama de Caso de Uso](https://drive.google.com/file/d/1sOLqy4w9w8S2l2oj8vXeTpSukvkLUYu4/view?usp=sharing)
