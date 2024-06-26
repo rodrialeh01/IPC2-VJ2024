@@ -83,7 +83,7 @@ En esta clase se abordó el tema de Django, uso de Requests, jinja y diagramas d
 Lo puedes encontrar en:  [Clase16](./Clase16)
 
 ### 🎥 Grabación de la Clase
-**Clase 16**: []()
+**Clase 16**: [https://drive.google.com/file/d/1v7QQUMbTelGAMgH90Qbj0bZZ0f1jOsGo/view?usp=sharing](https://drive.google.com/file/d/1v7QQUMbTelGAMgH90Qbj0bZZ0f1jOsGo/view?usp=sharing)
 
 ### 📑 Ejemplo Diagrama de Caso de Uso
 [Diagrama de Caso de Uso](https://drive.google.com/file/d/1sOLqy4w9w8S2l2oj8vXeTpSukvkLUYu4/view?usp=sharing)
