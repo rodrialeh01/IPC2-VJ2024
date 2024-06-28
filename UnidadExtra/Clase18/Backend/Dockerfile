@@ -1,0 +1,17 @@
+#PRIMERO OBTENEMOS LA VERSION DE PYTHON JUNTO CON EL SO
+FROM python:alpine
+
+#LUEGO DEFINIMOS EL DIRECTORIO DE TRABAJO
+WORKDIR /Backend
+
+#COPIAMOS TODOS LOS ARCHIVOS DEL BACKEND
+COPY . .
+
+# Instala las dependencias
+RUN pip install --no-cache-dir -r requirements.txt
+
+#EXPONEMOS EL PUERTO
+EXPOSE 5000
+
+#CORREMOS EL SERVIDOR
+CMD ["python3", "main.py"]

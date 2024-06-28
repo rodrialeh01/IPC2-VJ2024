@@ -1,0 +1,6 @@
+Django==5.0.6
+Flask==3.0.3
+Flask-Cors==4.0.1
+Jinja2==3.1.4
+jsonify==0.5
+requests==2.32.3

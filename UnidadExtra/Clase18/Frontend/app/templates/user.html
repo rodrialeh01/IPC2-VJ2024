@@ -1,0 +1,24 @@
+{% extends "sidebaruser.html" %}
+
+{% block content %}
+<div class="text-center my-6">
+    <h2 class="text-3xl font-extrabold text-gray-900 dark:text-white">Libros disponibles</h2>
+</div>
+<div class="flex flex-wrap justify-center">
+    {% if libros %}
+        {% for libro in libros %}
+            <div class="flex flex-wrap justify-center gap-4 p-3">
+                <div id="card1" class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-md max-w-xs hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 my-4">
+                    <img class="object-cover w-full rounded-t-lg h-48 md:h-40 lg:h-48 md:w-48 md:rounded-none md:rounded-l-lg" src="{{libro.imagen}}" alt="">
+                    <div class="flex flex-col justify-between p-4 leading-normal">
+                        <h5 class="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">{{libro.titulo}}</h5>
+                        <p class="mb-3 text-gray-700 dark:text-gray-400 font-bold">ID: <span class="font-normal">{{libro.id}}</span></p>
+                        <p class="mb-3 text-gray-700 dark:text-gray-400 font-bold">Autor: <span class="font-normal">{{libro.autor}}</span></p>
+                        <p class="mb-3 text-gray-700 dark:text-gray-400 font-bold">Precio: <span class="font-normal">{{libro.precio}}</span></p>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+</div>
+{% endblock %}
