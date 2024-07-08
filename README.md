@@ -13,6 +13,8 @@ class IPC2:
 
 Este repositorio esta orientado a apoyar a los estudiantes de IPC2 de lo desarollado en el laboratorio. La idea es que todos los ejemplos vistos en laboratorio sean subidos en este repositorio y que tengan los comentarios suficientes para que vayan aprendiendo y aclarando sus dudas.
 
+Si te gusta este repositorio y su contenido, te invito a darle una ⭐️ y si quieres seguirme! 
+
 ## 🚀 Navegación
 
 ### Unidades del Laboratorio
